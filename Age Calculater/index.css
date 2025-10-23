@@ -1,0 +1,27 @@
+
+
+
+.main{
+    max-width: 600px;
+    border: 2px solid black;
+    border-radius: 9px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    gap: 8px;
+    padding: 4px;
+    text-align: center;
+
+}
+
+input{
+    padding: 6px 20px;
+}
+
+button{
+    padding: 6px 12px;
+    background-color: rgb(13, 78, 198);
+    color: white;
+    border-radius: 8px;
+}
+
