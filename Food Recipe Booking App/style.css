@@ -1,0 +1,17 @@
+
+
+.main{
+    display: flex;
+}
+
+.nav{
+    height: 120px;
+    background-color: blue;
+    color: white;
+    width: 100vw;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
