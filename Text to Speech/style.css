@@ -1,0 +1,22 @@
+
+
+.main{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+
+input{
+    padding: 12px 24px;
+}
+
+button{
+    padding: 6px 15px;
+    cursor: pointer;
+    background-color: rgb(177, 120, 80);
+    color: white;
+}
