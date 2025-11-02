@@ -2,24 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text-to Speech</title>
+    <meta na me="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text converter into speech</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<link rel="stylesheet" href="style.css">
 <body>
-    <div class="main">
-    <textarea id="text-input" rows="4" cols="50">Hello, world!</textarea>
-    <br>
-    <select id="language-select">
-        <option value="en-US">English (US)</option>
-        <option value="fr-FR">French</option>
-        <option value="de-DE">German</option>
-        <option value="es-ES">Spanish</option>
-        <option value="it-IT">Italian</option>
-    </select>
-    <button id="speak-button">Speak</button>
+    <div class="container">
+        <h1>Text to Speech <span>Converter</span></h1>
+        <textarea id="input" placeholder="write anything here...."></textarea>
+        <div class="row">
+            <select name="css" id="select"></select>
+            <button id="btn">Listen</button>
+        </div>
     </div>
 </body>
+
 <script src="index.js"></script>
-<script src="https://js.puter.com/v2/"></script>
 </html>

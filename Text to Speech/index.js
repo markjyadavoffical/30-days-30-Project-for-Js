@@ -1,15 +1,18 @@
-const text = document.getElementById("text-input")
-const button = document.getElementById("speak-button")
-
+const inp = document.getElementById("input")
+const button  = document.getElementById("btn")
 
 
 button.addEventListener("click", () => {
-    const textValue = text.value 
 
-    const utterance = new SpeechSynthesisUtterance(textValue);
-    const voices = speechSynthesis.getVoices();
-     utterance.voice = voices[0]
-     speechSynthesis.speak(utterance)
+    const inputValue = inp.value
+    const uttrance = new SpeechSynthesisUtterance(inputValue)
+
+   
+    const voices = speechSynthesis.getVoices()
+
+    uttrance.voice = voices[1]
+
+    speechSynthesis.speak(uttrance)
 })
 
 
